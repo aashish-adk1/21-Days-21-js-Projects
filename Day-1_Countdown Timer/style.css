@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(153, 50, 249);
+    gap: 20px;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.set-btn,.start-btn{
+    cursor: pointer;
+}
+.input, .set-btn, .start-btn{
+    padding:5px 15px;
+    border-radius: 5px;
+    border: blueviolet;
+    color: rgb(55, 51, 51);
+}
+
+.set-btn:hover,
+.start-btn:hover{
+    background-color: rgb(42, 2, 79);
+    color: white;
+
+}
+
+.counter h1{
+    color: rgb(55, 51, 51);
+}
+
+
+
