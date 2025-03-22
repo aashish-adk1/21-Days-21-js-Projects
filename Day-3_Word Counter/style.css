@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    border: none;
+    padding: 5px 15px;
+    color: gray;
+}
+
+.btn{
+    padding: 5px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: aqua;
+    color: gray;
+}
+.answer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5px;
+}
+.words,.char{
+    color: gray;
+
+}
